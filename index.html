@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Termux - chatgpt</title>
+
+</head>
+
+<style>
+body {
+background-color:black
+}
+h2 {
+color:white
+}
+p {
+color:white
+}
+label {
+color:white
+}
+
+</style>
+<body>
+
+    <center><h2>Bem Vindo Ao ChatGPT </h2></center><br>
+
+<center><div class="social">
+<h2> Me Encontre</h2>
+ <a href="https://twitter.com/o_meninodolinux"><img src="img/twitter.jpeg" width="130px" height="50px" style="border-radius:10px;"> </img/></a>
+<a href="https://youtube.com/@ap0l0777"> <img src="img/youtube.png" width="130px" height="50px" style="border-radius:10px;"> </img></a>
+<a href="https://github.com/AP0l0777/"> <img src="img/github.png" width="130px" height="50px" style="border-radius:10px;"> </img></a>
+<a href="https://t.me/eusoou"> <img src="img/telegram.png" width="130px" height="50px" style="border-radius:10px;"> </img></a>
+</div></center>
+
+<center><img src="images.jpeg" width="100%" height="450px" style="border-radius:10px"></center>
+    <!-- Início do formulário-->
+   <center> <form id="form-pergunta-chat">
+
+        <!-- Campo do tipo textarea para o usuário digitar o texto da pergunta-->
+        <label>CHAT: </label>
+        <textarea id="campo-pergunta" rows="3" cols="55" placeholder="Digite Aqui..."></textarea><br><br>
+
+        <input type="submit" id="btn-pergunta-chat"  value="Enviar"><br><br>
+    </form>
+    <!-- Fim do formulário-->
+
+    <!-- Receber o texto da pergunta -->
+    <p id="pergunta"></p>
+
+    <!-- Receber o texto da resposta -->
+    <p id="resposta"></p></center>
+
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
