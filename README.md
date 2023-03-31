@@ -12,7 +12,7 @@ ChatGPT, que significa transformador pré-treinado gerador de conversas, é um p
 <br>
 <h1>instalação</h1>
 <h4>Comando unico</h4>
-yes | apt upgrade; apt update; yes | apt install git; yes | apt install php;  git clone https:github.com/ap0l0777/ChatGPT; cd ChatGPT
+yes | apt upgrade; apt update; yes | apt install git; yes | apt install php;  git clone https://github.com/ap0l0777/ChatGPT; cd ChatGPT
 
 
 
