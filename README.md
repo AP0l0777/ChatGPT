@@ -27,4 +27,4 @@ yes | apt upgrade; apt update; yes | apt install git; yes | apt install php;  gi
 
 <h5> Veja O Video</h5>
 
-<a href="https://www.youtube.com/@ap0l0777/+%20"> Assistir Video</a>
+<a href="https://www.youtube.com/@ap0l0777/+%20?sub_confirmation=1"> Assistir Video</a>
